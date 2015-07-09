@@ -10,4 +10,14 @@ public class ballotUnit {
  public void RemoveCandidate(Candidate can){
 	 Participants.remove(can);
  }
+
+public ArrayList<Candidate> getParticipants() {
+	return Participants;
+}
+
+public void setParticipants(ArrayList<Candidate> participants) {
+	Participants = participants;
+}
+ 
+ 
 }
