@@ -13,6 +13,10 @@ public int candidateVote(Candidate c) {
 	 System.out.println("Ballot Button Color: Blue");
 	
  }*/
- 
- 
+
+public CableConnector(String constituency) {
+	super();
+	Constituency = constituency;
+}
+ 		
 }
