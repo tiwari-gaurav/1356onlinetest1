@@ -18,5 +18,15 @@ public CableConnector(String constituency) {
 	super();
 	Constituency = constituency;
 }
- 		
+ public void ShowResults(){
+	 Candidate cd;
+	 System.out.println("=========================");
+	 for(int i=0;i<Participants.size();i++){
+		 cd= Participants.get(i);
+		 System.out.printf("Candidate:" +cd.name+ " " + "Age:" +cd.age+ " " + "Sex:" +cd.sex+ " " + "VoteSymbol:" +cd.VoteSymbol);
+		 System.out.printf("\n");
+		 
+		 System.out.println("=========================");
+	 }
+ }
 }
